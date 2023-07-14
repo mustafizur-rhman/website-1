@@ -21,6 +21,7 @@
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    padding: 30px;
    }
 
 /* nav related style */
@@ -72,7 +73,7 @@ height: 62px;
     background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-
+    padding-top: 70px;
 }
 
 /* banner section */
@@ -111,13 +112,97 @@ font-weight: 400;
 margin-bottom: 30px;
 }
 /* /* main section style * */
-
+   main{
+    max-width: 1140px;
+    margin: 0 auto;
+   }
 
 /* about section style */
 .about{
 padding: 130px;
 border-radius: 10px;
 background: #FFF8F3;
-margin-top: 130px;
-margin-bottom: 130px;
+margin: 130px 0px;
 }
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}.about{
+    text-align: center;
+}
+
+/* #whatdoparagaraph{
+    padding-;
+ } */
+
+ .sec-p-p-bottom{
+    padding-bottom: ;
+ }
+ .skill-container{
+    display: flex;
+    gap: 24px;
+ }
+ .skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+ }
+ .skill-title{
+    padding: 20px 0px;
+ }
+  .skill-paragraph{
+    color:#757575;
+font-size: 16px;
+font-weight: 400;
+
+  }
+  main section{
+    margin-top: 130px;
+  }
+  /* resume-section */
+  .resume-column-title{
+      font-size: 30px;
+      font-weight: 700;
+      
+      color:#474747;
+
+  }
+  .resume-container{
+    display: flex;
+    gap:71px ;
+  }
+  .resume-item-description{
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+  }
+  .resume-item-title{
+    color: #474747;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .resume-item-institute{
+    color:  #757575;
+    font-family: Open ans;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+  .download-cv{
+    text-align: center;
+  }
+  .button2{
+    color:#FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+border-radius: 5px;
+background: #FD6E0A;
+width: 200px;
+height: 64px;
+border: 0px;
+margin-top: 50px;
+  }
