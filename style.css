@@ -1,7 +1,4 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
   /* common shared style */
    
   body{
@@ -14,6 +11,7 @@
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    pa
    }
 
    .section-paragraph{
@@ -30,7 +28,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     margin: 0Px 200px;
-    gap: 630px;
+    
 }
 .nav-title{
     color: #181818;
@@ -70,10 +68,10 @@ height: 62px;
 }
 .header{
     background: #FFF8F3;
-    background-image: url(images/header_bg.png);
+    background-image: url('images/header_bg.png'),url('images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
-    padding-top: 70px;
+    background-position: bottom right , left;
+   
 }
 
 /* banner section */
@@ -85,8 +83,8 @@ height: 62px;
 }
 
 .banner .profile-pic{
-    width: 587px;
-    height: 678px;
+    width: 500px;
+  
    
 }
 .banner-content{
@@ -135,9 +133,7 @@ margin: 130px 0px;
     padding-;
  } */
 
- .sec-p-p-bottom{
-    padding-bottom: ;
- }
+ 
  .skill-container{
     display: flex;
     gap: 24px;
@@ -149,7 +145,7 @@ margin: 130px 0px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
  }
  .skill-title{
-    padding: 20px 0px;
+  padding: 20px 0px;
  }
   .skill-paragraph{
     color:#757575;
@@ -157,6 +153,9 @@ font-size: 16px;
 font-weight: 400;
 
   }
+#whatdoparagaraph{
+  padding: 30px 150px;
+}
   main section{
     margin-top: 130px;
   }
@@ -232,4 +231,48 @@ margin-top: 50px;
     background: #FFF;
     border-radius: 5px;
     width: 100%;
+  }
+  /* responsive style */
+   
+  /* mobile device */
+  .hide{
+    display: none;
+  }
+  @media screen and (max-width:576px) {
+    .header{
+      background-image: none;
+    }
+    nav, nav>ul, .banner,.skill-container ,.resume-container ,footer ,.about-info-container {
+     flex-direction: column;}
+     #whatdoparagaraph,.banner{
+      padding: 20px; }
+    footer ,.about{
+      padding: 10px;
+    
+    }
+    .button{
+      margin-bottom: 15px;
+      margin-right: 10px;
+    }
+    .banner .profile-pic {
+      width: 100%;
+  }
+
+    .footer-column{
+      width: 100%;
+    }
+    .contact input[type="text"], .contact input[type="email"] ,textarea{
+      width: 78%;
+    }
+
+  }
+
+
+
+  @media screen and(min-width:576px) and (max-width:960px) {
+    footer {
+      padding: 30px;
+
+  }
+  
   }
